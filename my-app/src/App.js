@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Ninjas from './Ninjas';
 
-function App() {
-  return (
-    <div className="App">
-      asdzxc
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>asdzxc</h1>
+        <Ninjas/>
+      </div>
+    );
+  }
 }
 
 export default App;
