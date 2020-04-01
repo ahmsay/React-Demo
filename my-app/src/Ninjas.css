@@ -1,0 +1,9 @@
+body {
+  background: green;
+  transition: all 1s;
+}
+
+.ninjas form {
+  background: yellow;
+  padding: 20px;
+}
