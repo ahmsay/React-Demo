@@ -2,12 +2,15 @@
 
 # dependencies
 /my-app/node_modules
+/todoapp/node_modules
 
 # testing
 /my-app/coverage
+/todoapp/coverage
 
 # production
 /my-app/build
+/todoapp/build
 
 # misc
 .DS_Store
@@ -16,7 +19,14 @@
 /my-app/.env.test.local
 /my-app/.env.production.local
 
+/todoapp/.env.local
+/todoapp/.env.development.local
+/todoapp/.env.test.local
+/todoapp/.env.production.local
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 /my-app/.env
+/todoapp/.env
