@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Todos from './components/Todos'
-import AddTodo from './components/AddTodo'
 import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
