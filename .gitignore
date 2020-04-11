@@ -3,14 +3,17 @@
 # dependencies
 /my-app/node_modules
 /todoapp/node_modules
+/marioplan/node_modules
 
 # testing
 /my-app/coverage
 /todoapp/coverage
+/marioplan/coverage
 
 # production
 /my-app/build
 /todoapp/build
+/marioplan/build
 
 # misc
 .DS_Store
@@ -24,9 +27,15 @@
 /todoapp/.env.test.local
 /todoapp/.env.production.local
 
+/marioplan/.env.local
+/marioplan/.env.development.local
+/marioplan/.env.test.local
+/marioplan/.env.production.local
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 /my-app/.env
 /todoapp/.env
+/marioplan/.env
