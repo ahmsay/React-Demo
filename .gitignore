@@ -4,6 +4,7 @@
 /my-app/node_modules
 /todoapp/node_modules
 /marioplan/node_modules
+/marioplan/functions/node_modules
 
 # testing
 /my-app/coverage
@@ -14,6 +15,7 @@
 /my-app/build
 /todoapp/build
 /marioplan/build
+/marioplan/dist
 
 # misc
 .DS_Store
